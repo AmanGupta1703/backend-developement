@@ -1,0 +1,61 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	color: #e6fffd;
+	font-size: 1.6rem;
+	padding: 1rem 2rem;
+	animation: animate 0.6s ease infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+ul li {
+    font-weight: bold;
+    font-size: 2.4rem;
+}
+
+ul li:not(:last-child) {
+    margin-right: 2rem;
+}
+
+@keyframes animate {
+	0% {
+		color: #acbcff;
+		background: #b799ff;
+	}
+
+	25% {
+		color: #b799ff;
+		background: #acbcff;
+	}
+
+	50% {
+		color: #e6fffd;
+		background: #aee2ff;
+	}
+
+	75% {
+		color: #aee2ff;
+		background: #e6fffd;
+	}
+
+	100% {
+		color: #acbcff;
+		background: #b799ff;
+	}
+}
